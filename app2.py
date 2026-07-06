@@ -18,5 +18,6 @@ def inicio():
         <br> <br> Sum Result: {resultado}"
     return render_template("index2.html")
 
-app.run()
+if __name__ == "__main__":
+        app.run()
 
