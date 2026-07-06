@@ -26,9 +26,6 @@ def inicio():
 if __name__ == "__main__":
         app.run(
              host = "0.0.0.0",
-             port = init(os.environ.get("PORT", 5000))
-             debug = false             
+             port = init(os.environ.get("PORT", 5000)),
+             debug = False             
         )
-
-
-
