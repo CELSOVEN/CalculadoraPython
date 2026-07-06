@@ -13,9 +13,11 @@ def inicio():
         valor1 = request.form["valor1"]
         valor2 = request.form["valor2"]
         resultado = float(valor1) + float(valor2) 
+        multiplicacion = float(valor1) * float(valor2)
                        # Process the submitted values
         return f"Values submitted: {valor1}, {valor2}. \
-        <br> <br> Sum Result: {resultado}"
+        <br> <br> Sum Resultado de suma: {resultado}. \
+        <br> <br> Multiplication Result: {multiplicacion}"
     return render_template("index2.html")
 
 if __name__ == "__main__":
