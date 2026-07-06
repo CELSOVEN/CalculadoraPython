@@ -14,3 +14,12 @@ __pycache__/
 # Archivos del sistema
 .DS_Store
 Thumbs.db
+
+# Archivos de configuración de JetBrains (opcional)
+.idea/
+
+#Presentación pdf y power point
+.pdf
+.pptx
+
+
