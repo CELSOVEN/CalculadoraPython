@@ -1,3 +1,6 @@
+# Git utiliza este archivo para saber qué carpetas 
+# y archivos debe ignorar durante el seguimiento de cambios.
+
 # Entorno virtual
 .venv/
 
@@ -19,7 +22,8 @@ Thumbs.db
 .idea/
 
 #Presentación pdf y power point
-.pdf
-.pptx
+Calculadora_Python.pdf
+Calculadora_Python.pptx
+
 
 
