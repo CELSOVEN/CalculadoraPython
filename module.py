@@ -12,6 +12,7 @@ def calcula_con_dos_numeros(valor1, valor2):
     potencia = valor1 ** valor2
     division = valor1 / valor2 if valor2 != 0 else "No se puede dividir entre cero"
     division_entera = valor1 // valor2  if valor2 != 0 else "No se puede dividir entre cero"
+    SumaRara = valor1 + valor2 + 10
     resultados = []
     resultados.append(msg_resultado(suma, "Suma"))
     resultados.append(msg_resultado(resta, "Resta"))
@@ -20,6 +21,7 @@ def calcula_con_dos_numeros(valor1, valor2):
     resultados.append(msg_resultado(potencia, "Potencia"))
     resultados.append(msg_resultado(division, "División"))
     resultados.append(msg_resultado(division_entera, "División entera"))
+    resultados.append(msg_resultado(SumaRara, "Suma Rara"))
     return resultados 
 
 def generate_html_results(resultados):
