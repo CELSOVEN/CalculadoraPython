@@ -15,7 +15,8 @@ def inicio():
     if request.method == "POST":
         valor1 = request.form["valor1"]
         valor2 = request.form["valor2"]
-        resultados = md.calcula_con_dos_numeros(float(valor1), float(valor2))
+        valor3 = request.form["valor3"]
+        resultados = md.calcula_con_dos_numeros(float(valor1), float(valor2), float(valor3))
         html_results = md.generate_html_results(resultados)
         return html_results
     return render_template("index2.html")
