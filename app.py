@@ -21,7 +21,7 @@ def inicio():
     return render_template("index2.html")
 
 #Cuándo se trabaja localmente se utiliza esta línea de código
-#app.run()
+# app.run()
 
 #Cuando se trabaja en la nube se utilizan estas líneas de código
 if __name__ == "__main__":

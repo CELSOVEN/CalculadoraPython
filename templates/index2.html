@@ -2,15 +2,23 @@
 <!DOCTYPE html>
 
 <html lang="es">
-
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora Flask - Primera página Flask</title>
+    </head>
+    <body>
         <form method="post" action="/">
 
-        <input type="number" 
+        <h1> Cálculadora básica </h1>
+        <h2> Primer reto de Python llevado a la web con Flask </h2>
+        <label >Valor 1</label>
+                <input type="number" 
                 id="valor1" name="valor1">
 
-        <input type="number" 
+        <label >Valor 2</label>
+                <input type="number" 
                 id="valor2" name="valor2">
-
+        <br><br>
         <button type="submit" 
                 id = "calcula" name="calcula">Calculate</button>
 
