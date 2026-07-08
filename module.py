@@ -3,7 +3,6 @@
 def msg_resultado(resultado, operacion):
     return(f"El resultado de la {operacion} es: {resultado}")
 
-
 def calcula_con_dos_numeros(valor1, valor2, valor3):
     suma = valor1 + valor2 + valor3
     resta = valor1 - valor2 + valor3

@@ -22,12 +22,12 @@ def inicio():
     return render_template("index2.html")
 
 #Cuándo se trabaja localmente se utiliza esta línea de código
-# app.run()
+app.run()
 
 #Cuando se trabaja en la nube se utilizan estas líneas de código
-if __name__ == "__main__":
-        app.run(
-            host = "0.0.0.0",
-             port = init(os.environ.get("PORT", 5000)),
-             debug = False             
-        )
+# if __name__ == "__main__":
+#         app.run(
+#             host = "0.0.0.0",
+#              port = init(os.environ.get("PORT", 5000)),
+#              debug = False             
+#         )
